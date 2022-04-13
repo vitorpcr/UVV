@@ -1,0 +1,60 @@
+.wow {
+  width: 100px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 33%;
+}
+.menu{
+    background-color: lightgreen;
+    padding: 40px;
+}
+
+.menu h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+img:hover{
+    transform: scale(1.20);
+}
+
+.menu img{
+  margin-top: 30px;
+    display:flex
+    
+}
+
+.menu h2{
+  margin-top: 30px;
+  font-family: impact;
+  font-weight: 500;
+}
+.placar{
+  margin-left: 100px;
+  floar: right;
+}
+
+.timer{
+  padding: 2cm;
+}
+
+.timer h1{
+  margin:
+  text-align: center;
+}
+
+.convertor{
+  background-color: lightcoral;
+}
+
+.convertor h1{
+  text-align: center;
+  font-family: impact;
+}

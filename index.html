@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <form action="http://www.google.com/search">
+        Pesquisar: <input type="text" name="pesquisa">
+        <input type="submit">
+    </form>
+
+    <form>
+        Raio: <input class="r" type="number">
+        <button id="botao" class="botao">calcular area</button>
+      <div class="resultado">
+        <h1>Resultado: </h1>
+      </div>
+      
+    </form>
+
+
+  <div class="menu">
+        <h1>clique na imagem para jogar</h1>
+        <img src="pedra.jpg" alt="pedra" onclick="play(1)">
+        <img src="papel.jpg" alt="papel" onclick="play(2)">
+        <img src="tesoura.jpg" alt="tesoura" onclick="play(3)">
+
+     <h2 id="resultado">Resultado: </h2> 
+
+    
+  <div class="placar">
+    <h1 id = "placar">placar: </h1>
+  </div>
+  
+  </div>
+
+  <div class="timer">
+    <h1>Relógio</h1>
+
+    <div id="tempo">
+      0.0s
+    </div>
+
+    <button id="iniciar">iniciar</button>
+    <button id="pausar">pausar</button>
+    <button id="zerar">zerar</button>
+  </div>
+
+  <hr></hr>
+
+  <div class="convertor">
+    <h1>Convertor de moedas</h1>
+    <p>Escolha uma moeda de entrada: </p>
+    <div><input type="radio" name='in' value="real">Real</div>
+    <div><input type="radio" name='in' value="dolar">Dolar</div>
+    <div><input type="radio" name='in' value="euro">Euro</div>
+    <div><input type="radio" name='in' value="libra">Libra</div>
+
+    <p>Escolha uma moeda de saida: </p>
+    <div><input type="radio" name='out' value="real">Real</div>
+    <div><input type="radio" name='out' value="dolar">Dolar</div>
+    <div><input type="radio" name='out' value="euro">Euro</div>
+    <div><input type="radio" name='out' value="libra">Libra</div>
+
+  </div>
+
+  <div>
+    <div>digite o valor</div>
+    <input id="quantia" type="number" step="0.01" value="0.00">
+  </div>
+  <div>
+    <button onclick="converter()">converter</button>
+  </div>
+  <div>
+    <p>o valor convertido é: <span id="res">0.0</span></p>
+  </div>
+
+
+  
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
