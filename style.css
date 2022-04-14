@@ -3,22 +3,59 @@
 }
 
 *{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.block{
+  border-radius: 30px;
+  padding-top: 20px;
+  width: 350px;
+  height: 150px; 
+  background-color: rgb(139, 114, 114);
+}
+
+.pesquisar h1{
+  
+  
+  text-align: center;
+  font-weight: 200;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#submit{
+  
+  margin-left: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-transform: uppercase;
+  border-radius: 45%;
+  padding: 10px;
+  font-size: 20px;
+}
+.pesquisar input{
+  margin-top: 30px;
+  margin-left:40px ;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+  background-color: wheat;
+  
+}
+.pesquisar{
+  padding: 70px;
+  background-color: rgb(134, 90, 90);
 }
 
 img{
-    width: 33%;
+  width: 33%;
 }
 .menu{
-    background-color: lightgreen;
-    padding: 40px;
+  background-color: lightgreen;
+  padding: 40px;
 }
 
 .menu h1{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 500;
-    text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 500;
+  text-align: center;
 }
 
 img:hover{
