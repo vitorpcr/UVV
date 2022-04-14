@@ -15,7 +15,8 @@
   min-width: 50%;
   padding: 80px;
   display: flex;
-  background-color: red;
+  border-radius: 30px;
+  background-color: rgb(159, 179, 122);
 }
 
 .block{
@@ -27,6 +28,7 @@
   padding-top: 20px;
   width: 300px;
   height: 150px; 
+
   background-color: rgb(139, 114, 114);
 }
 
