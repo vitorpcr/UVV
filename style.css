@@ -7,10 +7,25 @@
   padding: 0;
 }
 
+.c-blocos{
+  
+  justify-content: center;
+  align-items: center;
+  max-width: 50%;
+  min-width: 50%;
+  padding: 80px;
+  display: flex;
+  background-color: red;
+}
+
 .block{
+  padding: 30PX;
+  margin: 20px;
+  min-width: 50%;
+  max-width: 400px;
   border-radius: 30px;
   padding-top: 20px;
-  width: 350px;
+  width: 300px;
   height: 150px; 
   background-color: rgb(139, 114, 114);
 }
@@ -23,7 +38,7 @@
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #submit{
-  
+  max-width: 50%;
   margin-left: 20px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-transform: uppercase;
@@ -32,14 +47,18 @@
   font-size: 20px;
 }
 .pesquisar input{
+  max-width: 50%;
   margin-top: 30px;
   margin-left:40px ;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 15px;
+  font-size: 25px;
   background-color: wheat;
   
 }
 .pesquisar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 70px;
   background-color: rgb(134, 90, 90);
 }
