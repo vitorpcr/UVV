@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: wheat;
+}
+
+
+.container1{
+    padding: 70px;
+    background-color: red;
+    
+    
+}
+
+.blocos1{
+    width: 100%;
+    background-color: green;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    min-width: 200px;
+    
+    height: 150px;
+    
+    
+}
+
+.bloco-1{
+    padding: 20px;
+    height: 60px;
+    
+    margin: 30px;
+    background-color: rgb(35, 236, 35);
+}
